@@ -24,8 +24,8 @@ html{
   
 }
 .hover-text:hover{
- color:black;
- background-color: white; 
+ color:#C91E30;
+ /* background-color: white;  */
 }
 
 
