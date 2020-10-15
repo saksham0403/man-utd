@@ -48,6 +48,7 @@ body{
   float: left;
 
 }
+
 /* .navbar .logo>a{
   font-size: 30px;
   font-weight: 600;
@@ -68,12 +69,16 @@ body{
   display: inline-block;
 }
 
+
 .navbar .menu li a{
   color: #fff;
   font-size: 18px;
   font-weight: 700;
   margin-left: 25px;
   text-decoration: none;
+}
+.menu li a:hover {
+  color:#CA3931;
 }
 .max-width{
   max-width:100%;
@@ -105,8 +110,8 @@ margin-bottom: 0;
 }
 
 #heading1{
-  position: relative;
-  bottom: 800px;
+  position: absolute;
+  bottom: 60%;
   margin-left: 100px;
   font-family: Ubuntu;
   font-size: 5rem;
